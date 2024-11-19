@@ -1,6 +1,5 @@
 import React from 'react'
-import { Pressable, Text, StyleSheet, onPress } from 'react-native';
-import { useState } from 'react';
+import { Pressable, Text, StyleSheet } from 'react-native';
 
 
 interface Props{
@@ -10,7 +9,6 @@ interface Props{
 }
 
 export const Contador = ({label, onPress, onLongPress}:Props) => {
-    const[contador, setContador] = useState(10);
     return (
           <Pressable style={styles.boton}
             onPress={onPress}
