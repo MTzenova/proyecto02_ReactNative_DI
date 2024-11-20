@@ -13,8 +13,8 @@ export default function App() {
 
   return (
     <View style={GlobalStyles.container}>
-      <MyText>
-        Hola, estamos dando interfaces
+      <MyText tamanio='h1'>
+        Hola
       </MyText>
     </View>
   );

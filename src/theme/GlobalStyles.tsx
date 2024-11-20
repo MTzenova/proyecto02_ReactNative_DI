@@ -20,6 +20,16 @@ const GlobalStyles = StyleSheet.create({
         padding: 10,
         borderRadius:10
       },
+      h1:{
+        fontSize:60
+      },
+      h2:{
+        fontSize:30
+      },
+      h3:{
+        fontSize: 15
+      }
+
       /*botonPulsado:{
         opacity:0.6
       }*/
