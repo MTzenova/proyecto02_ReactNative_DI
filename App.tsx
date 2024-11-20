@@ -1,21 +1,31 @@
-import { StatusBar } from 'expo-status-bar';
+//import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Pressable } from 'react-native';
-import { useState } from 'react';
+//import { useState } from 'react';
 import { GlobalStyles } from './src/theme/GlobalStyles';
 //import { Saludo } from './src/components/Saludo';
 //import { Contador } from './src/components/Contador';
-import { Color } from './src/theme/Color';
+//import { Color } from './src/theme/Color';
+import { MyText } from './src/components/MyText';
 
 export default function App() {
 
   /*const[contador, setContador] = useState(10);*/
 
- return (
+  return (
+    <View style={GlobalStyles.container}>
+      <MyText>
+        Hola, estamos dando interfaces
+      </MyText>
+    </View>
+  );
+
+
+ /*return (
     <View style={GlobalStyles.container}>
       <Text style={GlobalStyles.textoGrande} numberOfLines={1} adjustsFontSizeToFit>Hola, hola, Vecinitos</Text>
       
     </View>
-  );
+  );*/
   /*return (
     <View style={styles.container}>
       <Text style={styles.textoGrande}>{contador}</Text>

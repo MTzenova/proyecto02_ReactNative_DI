@@ -1,5 +1,6 @@
 import React from 'react'
 import { Pressable, Text, StyleSheet } from 'react-native';
+import { GlobalStyles } from '../theme/GlobalStyles';
 
 
 interface Props{
@@ -10,7 +11,7 @@ interface Props{
 
 export const Contador = ({label, onPress, onLongPress}:Props) => {
     return (
-          <Pressable style={styles.boton}
+          <Pressable style={GlobalStyles.boton}
             onPress={onPress}
             onLongPress={onLongPress}>
             

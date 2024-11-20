@@ -5,5 +5,5 @@ export const Color = {
 
     textPrimary: 'white',
     textSecondary: '#666666',
-    background: '#000'
+    background: '#fff'
 }as const;

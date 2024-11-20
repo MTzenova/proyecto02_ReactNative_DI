@@ -20,7 +20,7 @@ const GlobalStyles = StyleSheet.create({
         padding: 10,
         borderRadius:10
       },
-      botonPulsado:{
+      /*botonPulsado:{
         opacity:0.6
-      }
+      }*/
 })
