@@ -19,10 +19,10 @@ export const Contador = ({label, onPress, onLongPress}:Props) => {
     );
 }
 
-const styles = StyleSheet.create({
+/*const styles = StyleSheet.create({
     boton:{
         backgroundColor: '#00aae4',
         padding: 10,
         borderRadius:10
       }
-    });
+    });*/
